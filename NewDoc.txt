@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Here some data. Adding another data
+=======
+Here some data. Adding new data.
+>>>>>>> b5ea17f6f511ad1fca93448a7c4e6ec441ecf422
