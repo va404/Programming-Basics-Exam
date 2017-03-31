@@ -13,7 +13,7 @@ namespace twoNumSUm
             int start = int.Parse(Console.ReadLine());
             int end = int.Parse(Console.ReadLine());
             int magicNum = int.Parse(Console.ReadLine());
-            bool yes = false;
+            bool matchFound = false;
             var combination = 0;
             bool exit = false;
             int i = 0;
@@ -25,7 +25,7 @@ namespace twoNumSUm
                     combination++;
                     if (i+j== magicNum)
                     {
-                        yes = true;
+                        matchFound = true;
                         exit = true;
                         break;
                     }
@@ -35,7 +35,7 @@ namespace twoNumSUm
                     break;
                 }
             }
-            if (yes)
+            if (matchFound)
             {
                 Console.WriteLine("Combination N:{0} ({1} + {2} = {3}) ", combination, i, j, i + j);
             }
