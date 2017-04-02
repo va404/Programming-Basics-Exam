@@ -1,2 +1,2 @@
 # Exam
-Exam solutions from Programming Basics course.
+Programming Basics exam solutions.
